@@ -1,0 +1,164 @@
+ 1058  history
+ 1059  ls
+ 1060  cat c d first.txt
+ 1061  echo 'the file has been updated' >> first.txt 
+ 1062  cat first.txt 
+ 1063  git status
+ 1064  git add .
+ 1065  git status
+ 1066  git commiet -m 'first.txt has been updated'
+ 1067  git commit -m 'first.txt has been updated'
+ 1068  git log
+ 1069  cd .git
+ 1070  ls
+ 1071  ls branches/
+ 1072  cat HEAD
+ 1073  ls branches
+ 1074  ls *
+ 1075  cd ..
+ 1076  git clone git@github.com:noamseifer/practgit.git
+ 1077  ls
+ 1078  cd practgit
+ 1079  ll
+ 1080  git log
+ 1081  cd ..
+ 1082  git remote add origin git@github.com:noamseifer/practgit.git
+ 1083  ls
+ 1084  cd ..
+ 1085  cd practgit
+ 1086  echo 'this is file e' >e
+ 1087  git status
+ 1088  ls
+ 1089  git add .
+ 1090  git rm --cached practgit
+ 1091  git rm --cached practgit -f
+ 1092  ll
+ 1093  cd ..
+ 1094  cd practgit
+ 1095  ll
+ 1096  cd practgit
+ 1097  ll
+ 1098  git log
+ 1099  cd ..
+ 1100  ls
+ 1101  rm -f practgit/*
+ 1102  rm -f practgit
+ 1103  rmdir -f  practgit
+ 1104  man rmdir
+ 1105  rmdir -iv practgit
+ 1106  rmdir -rv practgit
+ 1107  rmdir -r practgit
+ 1108  rm -r practgit
+ 1109  y
+ 1110  rm -r practgit
+ 1111  ls
+ 1112  cd ..
+ 1113  ls
+ 1114  cd playground
+ 1115  mkdir srctrl
+ 1116  ls
+ 1117  cd srctrl
+ 1118  git init
+ 1119  git status
+ 1120  touch text.txt
+ 1121  echo 'hello world' >text.txt 
+ 1122  cat text.txt 
+ 1123  git status
+ 1124  git add .
+ 1125  git status
+ 1126  touch a.txt
+ 1127  git status
+ 1128  git commit -m 'adding file text.txt'
+ 1129  git status
+ 1130  git log
+ 1131  echo 'the file has been updated' >> text.txt 
+ 1132  git status
+ 1133  git commit -m 'this is the second commit'
+ 1134  git add .
+ 1135  git log
+ 1136  git commit -m 'this is the second commit'
+ 1137  git log
+ 1138  ls
+ 1139  ll
+ 1140  git log
+ 1141  git remote add origin https://github.com/noamseifer/gitsourcecontrol.git
+ 1142  git pull
+ 1143  ll
+ 1144  cd .git
+ 1145  ll
+ 1146  cd ..
+ 1147  git log
+ 1148  git pull
+ 1149  git pull main
+ 1150  git pull
+ 1151  branches
+ 1152  git log
+ 1153  git add origin https://github.com/noamseifer/gitsourcecontrol.git
+ 1154  git push origin master
+ 1155  git log
+ 1156  ll
+ 1157  git pull
+ 1158  cd ..
+ 1159  rm -rf srctrl/
+ 1160  git clone https://github.com/noamseifer/gitsourcecontrol.git
+ 1161  ls
+ 1162  cd gitsourcecontrol
+ 1163  ls
+ 1164  ll
+ 1165  cd .git
+ 1166  ll
+ 1167  cd ..
+ 1168  cat readme.md
+ 1169  cat README.md 
+ 1170  git status
+ 1171  git pull
+ 1172  git log
+ 1173  git pull
+ 1174  ll
+ 1175  cd .git
+ 1176  ll
+ 1177  cd branches
+ 1178  ll
+ 1179  cd ..
+ 1180  grep ./master
+ 1181  grep ./master *
+ 1182  cd packed-refs
+ 1183  cat packed-refs
+ 1184  git pull
+ 1185  cd ..
+ 1186  git pull
+ 1187  git clone https://github.com/noamseifer/gitsourcecontrol.git
+ 1188  git pull
+ 1189  ll
+ 1190  cd gitsourcecontrol/
+ 1191  ll
+ 1192  cd ..
+ 1193  rm -rf gitsourcecontrol/
+ 1194  ll
+ 1195  cd ..
+ 1196  cd gitsourcecontrol/
+ 1197  ll
+ 1198  touch a b c
+ 1199  echo 'this is file a' >>a
+ 1200  echo 'this is file b' >>b
+ 1201  echo 'this is file c' >>c
+ 1202  ll
+ 1203  git status
+ 1204  git add .
+ 1205  git commit -m 'adding files a b c'
+ 1206  git remote -v
+ 1207  git push origin
+ 1208  git pull
+ 1209  echo $DATE
+ 1210  echo $PATH
+ 1211  echo $Date
+ 1212  echo date >date
+ 1213  ll
+ 1214  cat date
+ 1215  echo $date >>date
+ 1216  ll
+ 1217  cat date
+ 1218  date
+ 1219  date >date
+ 1220  cat date
+ 1221  history >history
